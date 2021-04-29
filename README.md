@@ -11,10 +11,10 @@ It is a API based android application which show latest news of all countries.
 
 
 
-<img src="images/three.jpg" height="400" width="250">
+<img src="images/three.jpg" height="400" width="400">
 
 
 
-<img src="images/four.jpg" height="400" width="250">
+<img src="images/four.jpg" height="400" width="400">
 
 
