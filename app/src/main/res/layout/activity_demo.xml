@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Demo">
+
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Image"
+                android:paddingLeft="5sp"
+                android:paddingRight="5sp"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                />
+
+            <ImageView
+                android:id="@+id/image"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="5sp"
+                android:paddingLeft="5sp"
+                />
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="5sp"
+                />
+            <TextView
+                android:id="@+id/source"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:paddingLeft="5sp"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10sp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Title"
+                android:paddingLeft="5sp"
+                android:paddingRight="5sp"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="3sp"
+                />
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:paddingLeft="5sp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:paddingRight="5sp"
+                android:background="@drawable/textvboredr"
+                android:textColor="@color/black"
+                android:inputType="textMultiLine"
+                />
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15sp"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Description"
+                android:textSize="16sp"
+                android:paddingLeft="5sp"
+                android:paddingRight="5sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                />
+
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="3sp"
+                />
+            <TextView
+                android:id="@+id/desc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:paddingLeft="5sp"
+                android:paddingRight="5sp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/textvboredr"
+                android:textColor="@color/black"
+                android:inputType="textMultiLine"
+                />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10sp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Full News"
+                android:textSize="16sp"
+                android:paddingLeft="5sp"
+                android:paddingRight="5sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                />
+
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="3sp"
+                />
+
+            <TextView
+                android:id="@+id/fullnews"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:paddingLeft="5sp"
+                android:paddingRight="5sp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/textvboredr"
+                android:textColor="@color/black"
+                />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10sp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Content"
+                android:textSize="16sp"
+                android:paddingLeft="5sp"
+                android:paddingRight="5sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                />
+
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="3sp"
+                />
+
+            <TextView
+                android:id="@+id/content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:paddingLeft="5sp"
+                android:paddingRight="5sp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/textvboredr"
+                android:textColor="@color/black"
+                android:inputType="textMultiLine"
+                />
+
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10sp"
+                />
+
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
